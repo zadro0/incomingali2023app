@@ -1,4 +1,4 @@
-# Welcome to HashLips 👄
+# THX to HashLips 👄 ! - zadro0
 
 ![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/logo.png)
 
