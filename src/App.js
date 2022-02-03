@@ -75,7 +75,7 @@ export const StyledLogo = styled.img`
 `;
 
 export const StyledImg = styled.img`
-  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  
   border: 4px dashed var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
@@ -199,9 +199,9 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        <StyledLogo alt={"logo"} src={"/config/images/logo.gif"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -374,7 +374,7 @@ function App() {
             <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
+              style={{ transform: "scaleX(1)" }}
             />
           </s.Container>
         </ResponsiveWrapper>
