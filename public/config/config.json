@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x21627E16e92CCAA9f100B40372E0dA31edcc460f",
+  "SCAN_LINK": "https://polygonscan.com/token/0x21627E16e92CCAA9f100B40372E0dA31edcc460f",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "INCOMING ALI 2023",
+  "SYMBOL": "ALI NFT",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/incomingali2023",
+  "SHOW_BACKGROUND": true
+}
