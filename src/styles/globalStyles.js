@@ -51,7 +51,7 @@ export const Container = styled.div`
   background-color: ${({ test }) => (test ? "pink" : "none")};
   width: 100%;
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
-  background-size: cover;
+  background-size: solid;
   background-position: center top;
 `;
 
