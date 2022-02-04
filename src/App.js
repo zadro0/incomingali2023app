@@ -65,7 +65,7 @@ export const ResponsiveWrapper = styled.div`
   }
 `;
 
-export const StyledLogo = styled.img`
+export const StyledLogo2 = styled.img`
   border: 8px solid var(--secondary);
   background-color: var(--accent);
   border-radius: 25%;  
@@ -78,7 +78,7 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
-export const StyledLogo2 = styled.img`
+export const StyledLogo = styled.img`
   width: 500px;
 `;
 
