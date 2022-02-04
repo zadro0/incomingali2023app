@@ -36,6 +36,11 @@ export const SpacerLarge = styled.div`
   width: 32px;
 `;
 
+export const SpacerXLarge = styled.div`
+  height: 2160px;
+  width: 100%;
+`;
+
 // Used for providing a wrapper around a component
 export const Container = styled.div`
   display: flex;
@@ -47,7 +52,7 @@ export const Container = styled.div`
   width: 100%;
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 `;
 
 export const TextTitle = styled.p`
