@@ -217,7 +217,7 @@ function App() {
           <s.SpacerXLarge />
           </StyledLink>
         <s.SpacerSmall />
-          <StyledLogo2 alt={"logo"} src={"/config/images/logo2.gif"} />
+          <StyledLogo2 alt={"logo"} src={"/config/images/logo1.gif"} />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
