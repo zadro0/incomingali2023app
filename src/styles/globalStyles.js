@@ -51,8 +51,9 @@ export const Container = styled.div`
   background-color: ${({ test }) => (test ? "black" : "none")};
   width: 100%;
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
-  background-size: 100% 100%;
+  background-size: auto auto;
   background-position: center top;
+  background-repeat: no-repeat;
 `;
 
 export const TextTitle = styled.p`
