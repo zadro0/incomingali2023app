@@ -78,6 +78,10 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
+export const StyledLogo2 = styled.img`
+  width: 500px;
+`;
+
 export const StyledSocialmedia = styled.img`
   width: 40px;
 `;
@@ -213,7 +217,7 @@ function App() {
           <s.SpacerXLarge />
           </StyledLink>
         <s.SpacerSmall />
-          <StyledLogo alt={"logo"} src={"/config/images/logo.gif"} />
+          <StyledLogo2 alt={"logo"} src={"/config/images/logo2.gif"} />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
