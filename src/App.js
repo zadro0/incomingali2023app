@@ -204,8 +204,9 @@ function App() {
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
-      >
+      ><StyledLink target={"_blank"} href={"https://opensea.io/collection/incomingali2023"}>
         <StyledLogo alt={"logo"} src={"/config/images/logo.gif"} />
+          </StyledLink>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
