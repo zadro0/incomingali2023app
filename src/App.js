@@ -78,6 +78,10 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
+export const StyledYoutube = styled.img`
+  width: 40px;
+`;
+
 export const StyledImg = styled.img`
   
   border: 4px dashed var(--secondary);
@@ -405,6 +409,8 @@ function App() {
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
+            <s.SpacerLarge />
+            <StyledYoutube alt={"logo"} src={"/config/images/yt.gif"}/>
           </s.TextDescription>
         </s.Container>
       </s.Container>
