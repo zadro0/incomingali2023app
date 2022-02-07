@@ -151,7 +151,7 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Sometimes it takes a little longer. Please wait if you do not receive an error message from your wallet!");
         setClaimingNft(false);
       })
       .then((receipt) => {
