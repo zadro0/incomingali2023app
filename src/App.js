@@ -416,6 +416,15 @@ function App() {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
             <s.SpacerLarge />
+            <s.SpacerSmall />
+            <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            Social Media: 
+          </s.TextDescription>
             <StyledLink target={"_blank"} href={"https://www.youtube.com/channel/UCP6ywhdVF38JDP4kHFG_1zg"}>
             <StyledSocialmedia alt={"logo"} src={"/config/images/yt.gif"}/>
             </StyledLink>
@@ -428,6 +437,7 @@ function App() {
             <StyledLink target={"_blank"} href={"https://opensea.io/collection/incomingali2023"}>
             <StyledSocialmedia alt={"logo"} src={"/config/images/os.png"}/>
             </StyledLink>
+            <s.SpacerSmall />
             <s.TextDescription
             style={{
               textAlign: "center",
