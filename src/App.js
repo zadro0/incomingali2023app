@@ -428,7 +428,15 @@ function App() {
             <StyledLink target={"_blank"} href={"https://opensea.io/collection/incomingali2023"}>
             <StyledSocialmedia alt={"logo"} src={"/config/images/os.png"}/>
             </StyledLink>
-            <StyledLink target={"_blank"} href={"https://nftcalendar.io/event/incoming-ali-2023/"}>
+            <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            As seen on: 
+          </s.TextDescription>
+          <StyledLink target={"_blank"} href={"https://nftcalendar.io/event/incoming-ali-2023/"}>
             <StyledSocialmedia alt={"logo"} src={"/config/images/nftcalendar.png"}/>
             </StyledLink>
           </s.TextDescription>
