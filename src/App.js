@@ -428,6 +428,9 @@ function App() {
             <StyledLink target={"_blank"} href={"https://opensea.io/collection/incomingali2023"}>
             <StyledSocialmedia alt={"logo"} src={"/config/images/os.png"}/>
             </StyledLink>
+            <StyledLink target={"_blank"} href={"https://nftcalendar.io/event/incoming-ali-2023/"}>
+            <StyledSocialmedia alt={"logo"} src={"/config/images/nftcalendar.png"}/>
+            </StyledLink>
           </s.TextDescription>
         </s.Container>
       </s.Container>
